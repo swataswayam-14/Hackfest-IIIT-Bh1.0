@@ -1,0 +1,35 @@
+.farmers-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.farmer-card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 40px;
+}
+.see-details-btn {
+    background: linear-gradient(to bottom, #55bb07, #2ee546);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .see-details-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .farmer-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .farmer-card:hover .see-details-btn {
+    background: linear-gradient(to bottom, hsl(85, 78%, 54%), #00ff22);
+  }
