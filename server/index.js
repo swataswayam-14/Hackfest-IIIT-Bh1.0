@@ -13,6 +13,6 @@ app.use((err, req, res, next) => {
     res.status(500).send('Something broke!');
 });
 
-app.listen(5000,()=>{
+app.listen(3000,()=>{
     console.log(`The server is listening on port 3000`);
 })
